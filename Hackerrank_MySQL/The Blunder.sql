@@ -1,0 +1,2 @@
+SELECT CEIL(AVG(Salary) - AVG(REPLACE(Salary,0,""))) FROM EMPLOYEES
+WHERE (Salary>1000) AND (Salary<100000);
